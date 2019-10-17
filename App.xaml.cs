@@ -44,6 +44,7 @@ namespace AreYouFree
             if( msg == WM_HOTKEY )
             {
                 App app = (App)App.Current;
+                Microsoft.SmallBasic.Library.Sound.PlayChime();
                 app.window_.Show();
             }
 
